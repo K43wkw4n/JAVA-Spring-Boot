@@ -14,6 +14,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/monster")
 public class MonsterController {
+    public static ResponseEntity<Monster> putUpdate;
     @Autowired
     private MonsterService monsterService;
 
